@@ -22,3 +22,8 @@ int _tmain(int argc, _TCHAR* argv[2])
 	b = pow(a, 2) + 3;
 
 	Z = (a * b) / (pow(a, 4) + b);
+	printf_s("answer:%f,\n ", Z);
+
+	return 0;
+
+}
